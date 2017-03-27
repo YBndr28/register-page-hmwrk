@@ -1,0 +1,124 @@
+html{
+	font-family: Arial;
+	height: 100%;
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,81,47,1)), color-stop(100%, rgba(221,36,118,1)));
+	background-size: cover;
+}
+
+.register_page-modal {
+	width: 460px;
+    height: 470px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    padding: 25px 25px;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+}
+
+.register_page-modal-header {
+	color:  #1b1c1d;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 20px;
+	text-indent: 30px;
+}
+
+.logo {
+	position: absolute;
+	top: 5%;
+}
+
+
+.register_page-modal-descr {
+	color:  #797b7f;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-top: 15px;
+}
+
+a {
+	text-decoration: none;
+	color:  #ea355a;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.register_page-modal-body {
+	margin-top: 35px;
+}
+
+.register_page-modal-first-name-field,
+.register_page-modal-last-name-field {
+	border-radius: 4px;
+	background-color:  #f0f0f0;
+	width: 193px;
+	height: 40px;
+	margin-bottom: 15px;
+	border-style: none;
+}
+
+.register_page-modal-email-field,
+.register_page-modal-pass-field {
+	border-radius: 4px;
+	background-color:  #f0f0f0;
+	width: 400px;
+	height: 40px;
+	border-style: none;
+}
+
+.register_page-modal-first-name-field {
+	margin-right:10px;
+}
+
+.register_page-modal-btn {
+	background-color:  #ea355a;
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	width: 400px;
+	height: 50px;
+	border-style: none;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.register_page-modal-email-field {
+	margin-bottom: 15px;
+}
+
+input[placeholder] {
+	color:  #797b7f;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-indent: 15px;
+}
+
+.register_page-modal-btn:hover {
+	cursor: pointer;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+input:focus {
+	color: black;
+	font-size: 18px;
+	text-indent: 15px;
+}
+
+
+.register_page-modal-btn:active {
+	background-color: #bd1962;
+	transition: 0.1s ease-in;
+	outline: none;
+}
